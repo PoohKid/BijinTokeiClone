@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535841E13DDB2BA00722240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535841D13DDB2BA00722240 /* UIKit.framework */; };
+		0535842013DDB2BA00722240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535841F13DDB2BA00722240 /* Foundation.framework */; };
+		0535842213DDB2BA00722240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535842113DDB2BA00722240 /* CoreGraphics.framework */; };
+		0535842813DDB2BA00722240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0535842613DDB2BA00722240 /* InfoPlist.strings */; };
+		0535842B13DDB2BA00722240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535842A13DDB2BA00722240 /* main.m */; };
+		0535842E13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535842D13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m */; };
+		0535843113DDB2BA00722240 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0535842F13DDB2BA00722240 /* MainWindow.xib */; };
+		0535843413DDB2BA00722240 /* BijinTokeiCloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */; };
+		0535843713DDB2BA00722240 /* BijinTokeiCloneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0535843513DDB2BA00722240 /* BijinTokeiCloneViewController.xib */; };
+		0535843E13DDB2BA00722240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535841D13DDB2BA00722240 /* UIKit.framework */; };
+		0535843F13DDB2BA00722240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535841F13DDB2BA00722240 /* Foundation.framework */; };
+		0535844013DDB2BA00722240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0535842113DDB2BA00722240 /* CoreGraphics.framework */; };
+		0535844813DDB2BA00722240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0535844613DDB2BA00722240 /* InfoPlist.strings */; };
+		0535844B13DDB2BA00722240 /* BijinTokeiCloneTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */; };
+		0535844D13DDB2BA00722240 /* BijinTokeiCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0535844113DDB2BA00722240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0535841013DDB2BA00722240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0535841813DDB2BA00722240;
+			remoteInfo = BijinTokeiClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0535841913DDB2BA00722240 /* BijinTokeiClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BijinTokeiClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0535841D13DDB2BA00722240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0535841F13DDB2BA00722240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0535842113DDB2BA00722240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0535842513DDB2BA00722240 /* BijinTokeiClone-Info.plist */ = {isa = PBXFileReference; path = "BijinTokeiClone-Info.plist"; sourceTree = "<group>"; };
+		0535842713DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0535842913DDB2BA00722240 /* BijinTokeiClone-Prefix.pch */ = {isa = PBXFileReference; path = "BijinTokeiClone-Prefix.pch"; sourceTree = "<group>"; };
+		0535842A13DDB2BA00722240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0535842C13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.h */ = {isa = PBXFileReference; path = BijinTokeiCloneAppDelegate.h; sourceTree = "<group>"; };
+		0535842D13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneAppDelegate.m; sourceTree = "<group>"; };
+		0535843013DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0535843213DDB2BA00722240 /* BijinTokeiCloneViewController.h */ = {isa = PBXFileReference; path = BijinTokeiCloneViewController.h; sourceTree = "<group>"; };
+		0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneViewController.m; sourceTree = "<group>"; };
+		0535843613DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BijinTokeiCloneViewController.xib; sourceTree = "<group>"; };
+		0535843D13DDB2BA00722240 /* BijinTokeiCloneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BijinTokeiCloneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0535844513DDB2BA00722240 /* BijinTokeiCloneTests-Info.plist */ = {isa = PBXFileReference; path = "BijinTokeiCloneTests-Info.plist"; sourceTree = "<group>"; };
+		0535844713DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */ = {isa = PBXFileReference; path = "BijinTokeiCloneTests-Prefix.pch"; sourceTree = "<group>"; };
+		0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijinTokeiCloneTests.h; sourceTree = "<group>"; };
+		0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0535841613DDB2BA00722240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535841E13DDB2BA00722240 /* UIKit.framework in Frameworks */,
+				0535842013DDB2BA00722240 /* Foundation.framework in Frameworks */,
+				0535842213DDB2BA00722240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535843913DDB2BA00722240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535843E13DDB2BA00722240 /* UIKit.framework in Frameworks */,
+				0535843F13DDB2BA00722240 /* Foundation.framework in Frameworks */,
+				0535844013DDB2BA00722240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0535840E13DDB2BA00722240 = {
+			isa = PBXGroup;
+			children = (
+				0535842313DDB2BA00722240 /* BijinTokeiClone */,
+				0535844313DDB2BA00722240 /* BijinTokeiCloneTests */,
+				0535841C13DDB2BA00722240 /* Frameworks */,
+				0535841A13DDB2BA00722240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0535841A13DDB2BA00722240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0535841913DDB2BA00722240 /* BijinTokeiClone.app */,
+				0535843D13DDB2BA00722240 /* BijinTokeiCloneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0535841C13DDB2BA00722240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0535841D13DDB2BA00722240 /* UIKit.framework */,
+				0535841F13DDB2BA00722240 /* Foundation.framework */,
+				0535842113DDB2BA00722240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0535842313DDB2BA00722240 /* BijinTokeiClone */ = {
+			isa = PBXGroup;
+			children = (
+				0535842C13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.h */,
+				0535842D13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m */,
+				0535842F13DDB2BA00722240 /* MainWindow.xib */,
+				0535843213DDB2BA00722240 /* BijinTokeiCloneViewController.h */,
+				0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */,
+				0535843513DDB2BA00722240 /* BijinTokeiCloneViewController.xib */,
+				0535842413DDB2BA00722240 /* Supporting Files */,
+			);
+			path = BijinTokeiClone;
+			sourceTree = "<group>";
+		};
+		0535842413DDB2BA00722240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0535842513DDB2BA00722240 /* BijinTokeiClone-Info.plist */,
+				0535842613DDB2BA00722240 /* InfoPlist.strings */,
+				0535842913DDB2BA00722240 /* BijinTokeiClone-Prefix.pch */,
+				0535842A13DDB2BA00722240 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0535844313DDB2BA00722240 /* BijinTokeiCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */,
+				0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */,
+				0535844413DDB2BA00722240 /* Supporting Files */,
+			);
+			path = BijinTokeiCloneTests;
+			sourceTree = "<group>";
+		};
+		0535844413DDB2BA00722240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0535844513DDB2BA00722240 /* BijinTokeiCloneTests-Info.plist */,
+				0535844613DDB2BA00722240 /* InfoPlist.strings */,
+				0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0535841813DDB2BA00722240 /* BijinTokeiClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0535845013DDB2BA00722240 /* Build configuration list for PBXNativeTarget "BijinTokeiClone" */;
+			buildPhases = (
+				0535841513DDB2BA00722240 /* Sources */,
+				0535841613DDB2BA00722240 /* Frameworks */,
+				0535841713DDB2BA00722240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BijinTokeiClone;
+			productName = BijinTokeiClone;
+			productReference = 0535841913DDB2BA00722240 /* BijinTokeiClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0535843C13DDB2BA00722240 /* BijinTokeiCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0535845313DDB2BA00722240 /* Build configuration list for PBXNativeTarget "BijinTokeiCloneTests" */;
+			buildPhases = (
+				0535843813DDB2BA00722240 /* Sources */,
+				0535843913DDB2BA00722240 /* Frameworks */,
+				0535843A13DDB2BA00722240 /* Resources */,
+				0535843B13DDB2BA00722240 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0535844213DDB2BA00722240 /* PBXTargetDependency */,
+			);
+			name = BijinTokeiCloneTests;
+			productName = BijinTokeiCloneTests;
+			productReference = 0535843D13DDB2BA00722240 /* BijinTokeiCloneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0535841013DDB2BA00722240 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0535841313DDB2BA00722240 /* Build configuration list for PBXProject "BijinTokeiClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0535840E13DDB2BA00722240;
+			productRefGroup = 0535841A13DDB2BA00722240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0535841813DDB2BA00722240 /* BijinTokeiClone */,
+				0535843C13DDB2BA00722240 /* BijinTokeiCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0535841713DDB2BA00722240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535842813DDB2BA00722240 /* InfoPlist.strings in Resources */,
+				0535843113DDB2BA00722240 /* MainWindow.xib in Resources */,
+				0535843713DDB2BA00722240 /* BijinTokeiCloneViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535843A13DDB2BA00722240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535844813DDB2BA00722240 /* InfoPlist.strings in Resources */,
+				0535844B13DDB2BA00722240 /* BijinTokeiCloneTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0535843B13DDB2BA00722240 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0535841513DDB2BA00722240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535842B13DDB2BA00722240 /* main.m in Sources */,
+				0535842E13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m in Sources */,
+				0535843413DDB2BA00722240 /* BijinTokeiCloneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535843813DDB2BA00722240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535844D13DDB2BA00722240 /* BijinTokeiCloneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0535844213DDB2BA00722240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0535841813DDB2BA00722240 /* BijinTokeiClone */;
+			targetProxy = 0535844113DDB2BA00722240 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0535842613DDB2BA00722240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535842713DDB2BA00722240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0535842F13DDB2BA00722240 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535843013DDB2BA00722240 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0535843513DDB2BA00722240 /* BijinTokeiCloneViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535843613DDB2BA00722240 /* en */,
+			);
+			name = BijinTokeiCloneViewController.xib;
+			sourceTree = "<group>";
+		};
+		0535844613DDB2BA00722240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535844713DDB2BA00722240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0535844E13DDB2BA00722240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0535844F13DDB2BA00722240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0535845113DDB2BA00722240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BijinTokeiClone/BijinTokeiClone-Prefix.pch";
+				INFOPLIST_FILE = "BijinTokeiClone/BijinTokeiClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0535845213DDB2BA00722240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BijinTokeiClone/BijinTokeiClone-Prefix.pch";
+				INFOPLIST_FILE = "BijinTokeiClone/BijinTokeiClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0535845413DDB2BA00722240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BijinTokeiClone.app/BijinTokeiClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BijinTokeiCloneTests/BijinTokeiCloneTests-Prefix.pch";
+				INFOPLIST_FILE = "BijinTokeiCloneTests/BijinTokeiCloneTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0535845513DDB2BA00722240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BijinTokeiClone.app/BijinTokeiClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BijinTokeiCloneTests/BijinTokeiCloneTests-Prefix.pch";
+				INFOPLIST_FILE = "BijinTokeiCloneTests/BijinTokeiCloneTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0535841313DDB2BA00722240 /* Build configuration list for PBXProject "BijinTokeiClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535844E13DDB2BA00722240 /* Debug */,
+				0535844F13DDB2BA00722240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0535845013DDB2BA00722240 /* Build configuration list for PBXNativeTarget "BijinTokeiClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535845113DDB2BA00722240 /* Debug */,
+				0535845213DDB2BA00722240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0535845313DDB2BA00722240 /* Build configuration list for PBXNativeTarget "BijinTokeiCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535845413DDB2BA00722240 /* Debug */,
+				0535845513DDB2BA00722240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0535841013DDB2BA00722240 /* Project object */;
+}

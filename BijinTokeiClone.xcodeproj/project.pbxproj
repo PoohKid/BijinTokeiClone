@@ -22,6 +22,10 @@
 		0535844813DDB2BA00722240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0535844613DDB2BA00722240 /* InfoPlist.strings */; };
 		0535844B13DDB2BA00722240 /* BijinTokeiCloneTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */; };
 		0535844D13DDB2BA00722240 /* BijinTokeiCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */; };
+		0535845C13DDB91D00722240 /* base01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845813DDB91D00722240 /* base01.png */; };
+		0535845D13DDB91D00722240 /* base02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845913DDB91D00722240 /* base02.png */; };
+		0535845E13DDB91D00722240 /* 1325.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845B13DDB91D00722240 /* 1325.png */; };
+		0535846013DDB93400722240 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0535845F13DDB93400722240 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +43,26 @@
 		0535841D13DDB2BA00722240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0535841F13DDB2BA00722240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0535842113DDB2BA00722240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0535842513DDB2BA00722240 /* BijinTokeiClone-Info.plist */ = {isa = PBXFileReference; path = "BijinTokeiClone-Info.plist"; sourceTree = "<group>"; };
+		0535842513DDB2BA00722240 /* BijinTokeiClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BijinTokeiClone-Info.plist"; sourceTree = "<group>"; };
 		0535842713DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0535842913DDB2BA00722240 /* BijinTokeiClone-Prefix.pch */ = {isa = PBXFileReference; path = "BijinTokeiClone-Prefix.pch"; sourceTree = "<group>"; };
+		0535842913DDB2BA00722240 /* BijinTokeiClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BijinTokeiClone-Prefix.pch"; sourceTree = "<group>"; };
 		0535842A13DDB2BA00722240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0535842C13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.h */ = {isa = PBXFileReference; path = BijinTokeiCloneAppDelegate.h; sourceTree = "<group>"; };
+		0535842C13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijinTokeiCloneAppDelegate.h; sourceTree = "<group>"; };
 		0535842D13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneAppDelegate.m; sourceTree = "<group>"; };
 		0535843013DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0535843213DDB2BA00722240 /* BijinTokeiCloneViewController.h */ = {isa = PBXFileReference; path = BijinTokeiCloneViewController.h; sourceTree = "<group>"; };
+		0535843213DDB2BA00722240 /* BijinTokeiCloneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijinTokeiCloneViewController.h; sourceTree = "<group>"; };
 		0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneViewController.m; sourceTree = "<group>"; };
 		0535843613DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BijinTokeiCloneViewController.xib; sourceTree = "<group>"; };
 		0535843D13DDB2BA00722240 /* BijinTokeiCloneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BijinTokeiCloneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0535844513DDB2BA00722240 /* BijinTokeiCloneTests-Info.plist */ = {isa = PBXFileReference; path = "BijinTokeiCloneTests-Info.plist"; sourceTree = "<group>"; };
+		0535844513DDB2BA00722240 /* BijinTokeiCloneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BijinTokeiCloneTests-Info.plist"; sourceTree = "<group>"; };
 		0535844713DDB2BA00722240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */ = {isa = PBXFileReference; path = "BijinTokeiCloneTests-Prefix.pch"; sourceTree = "<group>"; };
+		0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BijinTokeiCloneTests-Prefix.pch"; sourceTree = "<group>"; };
 		0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijinTokeiCloneTests.h; sourceTree = "<group>"; };
 		0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneTests.m; sourceTree = "<group>"; };
+		0535845813DDB91D00722240 /* base01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base01.png; sourceTree = "<group>"; };
+		0535845913DDB91D00722240 /* base02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base02.png; sourceTree = "<group>"; };
+		0535845B13DDB91D00722240 /* 1325.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1325.png; sourceTree = "<group>"; };
+		0535845F13DDB93400722240 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 		0535840E13DDB2BA00722240 = {
 			isa = PBXGroup;
 			children = (
+				0535845F13DDB93400722240 /* README.md */,
 				0535842313DDB2BA00722240 /* BijinTokeiClone */,
 				0535844313DDB2BA00722240 /* BijinTokeiCloneTests */,
 				0535841C13DDB2BA00722240 /* Frameworks */,
@@ -120,6 +129,7 @@
 				0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */,
 				0535843513DDB2BA00722240 /* BijinTokeiCloneViewController.xib */,
 				0535842413DDB2BA00722240 /* Supporting Files */,
+				0535845613DDB91D00722240 /* Resoures */,
 			);
 			path = BijinTokeiClone;
 			sourceTree = "<group>";
@@ -153,6 +163,32 @@
 				0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0535845613DDB91D00722240 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				0535845713DDB91D00722240 /* Images */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		0535845713DDB91D00722240 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0535845813DDB91D00722240 /* base01.png */,
+				0535845913DDB91D00722240 /* base02.png */,
+				0535845A13DDB91D00722240 /* Times */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0535845A13DDB91D00722240 /* Times */ = {
+			isa = PBXGroup;
+			children = (
+				0535845B13DDB91D00722240 /* 1325.png */,
+			);
+			path = Times;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +261,10 @@
 				0535842813DDB2BA00722240 /* InfoPlist.strings in Resources */,
 				0535843113DDB2BA00722240 /* MainWindow.xib in Resources */,
 				0535843713DDB2BA00722240 /* BijinTokeiCloneViewController.xib in Resources */,
+				0535845C13DDB91D00722240 /* base01.png in Resources */,
+				0535845D13DDB91D00722240 /* base02.png in Resources */,
+				0535845E13DDB91D00722240 /* 1325.png in Resources */,
+				0535846013DDB93400722240 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,13 +25,15 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    //timeLabel.font = [UIFont fontWithName:@"DB LCD Temp Black" size:48.0f];
 }
-*/
+
 
 - (void)viewDidUnload
 {

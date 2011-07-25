@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BijinTokeiCloneViewController : UIViewController {
-    
+    IBOutlet UILabel *timeLabel;
 }
 
 @end

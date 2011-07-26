@@ -26,6 +26,8 @@
 		0535845D13DDB91D00722240 /* base02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845913DDB91D00722240 /* base02.png */; };
 		0535845E13DDB91D00722240 /* 1325.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845B13DDB91D00722240 /* 1325.png */; };
 		0535846013DDB93400722240 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0535845F13DDB93400722240 /* README.md */; };
+		057C2F2F13DF0B3600CA2AA9 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 057C2F2D13DF0B3600CA2AA9 /* board.png */; };
+		057C2F3013DF0B3600CA2AA9 /* board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 057C2F2E13DF0B3600CA2AA9 /* board@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		0535845913DDB91D00722240 /* base02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base02.png; sourceTree = "<group>"; };
 		0535845B13DDB91D00722240 /* 1325.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1325.png; sourceTree = "<group>"; };
 		0535845F13DDB93400722240 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		057C2F2D13DF0B3600CA2AA9 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		057C2F2E13DF0B3600CA2AA9 /* board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		0535845713DDB91D00722240 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				057C2F2D13DF0B3600CA2AA9 /* board.png */,
+				057C2F2E13DF0B3600CA2AA9 /* board@2x.png */,
 				0535845813DDB91D00722240 /* base01.png */,
 				0535845913DDB91D00722240 /* base02.png */,
 				0535845A13DDB91D00722240 /* Times */,
@@ -265,6 +271,8 @@
 				0535845D13DDB91D00722240 /* base02.png in Resources */,
 				0535845E13DDB91D00722240 /* 1325.png in Resources */,
 				0535846013DDB93400722240 /* README.md in Resources */,
+				057C2F2F13DF0B3600CA2AA9 /* board.png in Resources */,
+				057C2F3013DF0B3600CA2AA9 /* board@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				0535845213DDB2BA00722240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0535845313DDB2BA00722240 /* Build configuration list for PBXNativeTarget "BijinTokeiCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				0535845513DDB2BA00722240 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

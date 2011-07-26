@@ -8,6 +8,10 @@
 
 #import "BijinTokeiCloneViewController.h"
 
+@interface BijinTokeiCloneViewController (Private)
+- (void)viewImage:(NSDate *)date;
+@end
+
 @implementation BijinTokeiCloneViewController
 
 - (void)dealloc
@@ -32,6 +36,7 @@
     [super viewDidLoad];
 
     //timeLabel.font = [UIFont fontWithName:@"DB LCD Temp Black" size:48.0f];
+    [self viewImage:[NSDate date]];
 }
 
 
@@ -46,6 +51,17 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - Private methods
+
+- (void)viewImage:(NSDate *)date
+{
+    UIImage *image = [UIImage imageNamed:@"0000.png"];
+    if (image == nil) {
+        image = [UIImage imageNamed:@"base01.png"];
+    }
+    imageView.image = image;
 }
 
 @end

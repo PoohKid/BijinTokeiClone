@@ -22,12 +22,15 @@
 		0535844813DDB2BA00722240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0535844613DDB2BA00722240 /* InfoPlist.strings */; };
 		0535844B13DDB2BA00722240 /* BijinTokeiCloneTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */; };
 		0535844D13DDB2BA00722240 /* BijinTokeiCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */; };
-		0535845C13DDB91D00722240 /* base01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845813DDB91D00722240 /* base01.png */; };
-		0535845D13DDB91D00722240 /* base02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845913DDB91D00722240 /* base02.png */; };
 		0535845E13DDB91D00722240 /* 1325.png in Resources */ = {isa = PBXBuildFile; fileRef = 0535845B13DDB91D00722240 /* 1325.png */; };
 		0535846013DDB93400722240 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0535845F13DDB93400722240 /* README.md */; };
 		057C2F2F13DF0B3600CA2AA9 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 057C2F2D13DF0B3600CA2AA9 /* board.png */; };
 		057C2F3013DF0B3600CA2AA9 /* board@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 057C2F2E13DF0B3600CA2AA9 /* board@2x.png */; };
+		05DE8FD813ECF7F700CE5D3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE8FD713ECF7F700CE5D3C /* QuartzCore.framework */; };
+		05DE8FDB13ED5CF500CE5D3C /* BaseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE8FDA13ED5CF500CE5D3C /* BaseImage.m */; };
+		05DE8FDE13ED673800CE5D3C /* base00.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DE8FDC13ED673800CE5D3C /* base00.png */; };
+		05DE8FDF13ED673800CE5D3C /* base01.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DE8FDD13ED673800CE5D3C /* base01.png */; };
+		05DE8FE113EDB7CB00CE5D3C /* 0300.png in Resources */ = {isa = PBXBuildFile; fileRef = 05DE8FE013EDB7CB00CE5D3C /* 0300.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +64,16 @@
 		0535844913DDB2BA00722240 /* BijinTokeiCloneTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BijinTokeiCloneTests-Prefix.pch"; sourceTree = "<group>"; };
 		0535844A13DDB2BA00722240 /* BijinTokeiCloneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BijinTokeiCloneTests.h; sourceTree = "<group>"; };
 		0535844C13DDB2BA00722240 /* BijinTokeiCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BijinTokeiCloneTests.m; sourceTree = "<group>"; };
-		0535845813DDB91D00722240 /* base01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base01.png; sourceTree = "<group>"; };
-		0535845913DDB91D00722240 /* base02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base02.png; sourceTree = "<group>"; };
 		0535845B13DDB91D00722240 /* 1325.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1325.png; sourceTree = "<group>"; };
 		0535845F13DDB93400722240 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		057C2F2D13DF0B3600CA2AA9 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 		057C2F2E13DF0B3600CA2AA9 /* board@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board@2x.png"; sourceTree = "<group>"; };
+		05DE8FD713ECF7F700CE5D3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		05DE8FD913ED5CF500CE5D3C /* BaseImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImage.h; sourceTree = "<group>"; };
+		05DE8FDA13ED5CF500CE5D3C /* BaseImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseImage.m; sourceTree = "<group>"; };
+		05DE8FDC13ED673800CE5D3C /* base00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base00.png; sourceTree = "<group>"; };
+		05DE8FDD13ED673800CE5D3C /* base01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base01.png; sourceTree = "<group>"; };
+		05DE8FE013EDB7CB00CE5D3C /* 0300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0300.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DE8FD813ECF7F700CE5D3C /* QuartzCore.framework in Frameworks */,
 				0535841E13DDB2BA00722240 /* UIKit.framework in Frameworks */,
 				0535842013DDB2BA00722240 /* Foundation.framework in Frameworks */,
 				0535842213DDB2BA00722240 /* CoreGraphics.framework in Frameworks */,
@@ -119,6 +127,7 @@
 				0535841D13DDB2BA00722240 /* UIKit.framework */,
 				0535841F13DDB2BA00722240 /* Foundation.framework */,
 				0535842113DDB2BA00722240 /* CoreGraphics.framework */,
+				05DE8FD713ECF7F700CE5D3C /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +141,8 @@
 				0535843213DDB2BA00722240 /* BijinTokeiCloneViewController.h */,
 				0535843313DDB2BA00722240 /* BijinTokeiCloneViewController.m */,
 				0535843513DDB2BA00722240 /* BijinTokeiCloneViewController.xib */,
+				05DE8FD913ED5CF500CE5D3C /* BaseImage.h */,
+				05DE8FDA13ED5CF500CE5D3C /* BaseImage.m */,
 				0535842413DDB2BA00722240 /* Supporting Files */,
 				0535845613DDB91D00722240 /* Resoures */,
 			);
@@ -182,8 +193,7 @@
 			children = (
 				057C2F2D13DF0B3600CA2AA9 /* board.png */,
 				057C2F2E13DF0B3600CA2AA9 /* board@2x.png */,
-				0535845813DDB91D00722240 /* base01.png */,
-				0535845913DDB91D00722240 /* base02.png */,
+				05DE8FC113ECE66100CE5D3C /* Base */,
 				0535845A13DDB91D00722240 /* Times */,
 			);
 			path = Images;
@@ -192,9 +202,19 @@
 		0535845A13DDB91D00722240 /* Times */ = {
 			isa = PBXGroup;
 			children = (
+				05DE8FE013EDB7CB00CE5D3C /* 0300.png */,
 				0535845B13DDB91D00722240 /* 1325.png */,
 			);
 			path = Times;
+			sourceTree = "<group>";
+		};
+		05DE8FC113ECE66100CE5D3C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				05DE8FDC13ED673800CE5D3C /* base00.png */,
+				05DE8FDD13ED673800CE5D3C /* base01.png */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,12 +287,13 @@
 				0535842813DDB2BA00722240 /* InfoPlist.strings in Resources */,
 				0535843113DDB2BA00722240 /* MainWindow.xib in Resources */,
 				0535843713DDB2BA00722240 /* BijinTokeiCloneViewController.xib in Resources */,
-				0535845C13DDB91D00722240 /* base01.png in Resources */,
-				0535845D13DDB91D00722240 /* base02.png in Resources */,
 				0535845E13DDB91D00722240 /* 1325.png in Resources */,
 				0535846013DDB93400722240 /* README.md in Resources */,
 				057C2F2F13DF0B3600CA2AA9 /* board.png in Resources */,
 				057C2F3013DF0B3600CA2AA9 /* board@2x.png in Resources */,
+				05DE8FDE13ED673800CE5D3C /* base00.png in Resources */,
+				05DE8FDF13ED673800CE5D3C /* base01.png in Resources */,
+				05DE8FE113EDB7CB00CE5D3C /* 0300.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +332,7 @@
 				0535842B13DDB2BA00722240 /* main.m in Sources */,
 				0535842E13DDB2BA00722240 /* BijinTokeiCloneAppDelegate.m in Sources */,
 				0535843413DDB2BA00722240 /* BijinTokeiCloneViewController.m in Sources */,
+				05DE8FDB13ED5CF500CE5D3C /* BaseImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

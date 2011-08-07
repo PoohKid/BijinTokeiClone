@@ -23,10 +23,12 @@
 ## 画像切替エフェクト
 transitionFromView:toView:duration:options:completion:  
 のメソッドによりエフェクトを行っています。
+
 * UIViewAnimationOptionTransitionFlipFromLeft
 * UIViewAnimationOptionTransitionFlipFromRight
 * UIViewAnimationOptionTransitionCurlUp
 * UIViewAnimationOptionTransitionCurlDown
+
 の中からランダムに適用されます。
 
 ## ライセンス

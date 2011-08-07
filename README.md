@@ -13,7 +13,7 @@
 時刻と画像の対応はファイル名で行います。  
 画像ファイル名は「hhmm.png」の形式でリソースに登録しておきます。  
 対応する画像が存在しない場合は代替画像を順番に表示します。  
-代替画像の命名規則は「base00.png」（00からインクリメント）です。
+代替画像の命名規則は「base00.png」です。（00からインクリメント）
 
 ## 時刻表示
 組み込みフォントではDB LCD Temp Blackがデジタル時計に近いのですが  
@@ -21,8 +21,14 @@
 レイアウトを頑張ればプロポーショナルフォントでもいけるかも…。
 
 ## 画像切替エフェクト
-いくつかのView切り替えエフェクトからランダムに適用されます。
+transitionFromView:toView:duration:options:completion:  
+のメソッドによりエフェクトを行っています。
+* UIViewAnimationOptionTransitionFlipFromLeft
+* UIViewAnimationOptionTransitionFlipFromRight
+* UIViewAnimationOptionTransitionCurlUp
+* UIViewAnimationOptionTransitionCurlDown
+の中からランダムに適用されます。
 
 ## ライセンス
-まだ何も実装してないので完成したあとで考える。  
-基本的には◯◯時計を作りたい人に提供する用。
+基本的には◯◯時計を作りたい人に提供する目的で制作しました。  
+特に制約はありませんので、自由にご利用ください。

@@ -53,7 +53,7 @@
     NSString *nowTime = [NSString stringWithFormat:@"%@%@", hours, minutes];
     if ([_currentTime isEqual:nowTime] == NO)
     {
-        _currentTime = [nowTime retain];
+        [_currentTime release], _currentTime = [nowTime retain];
         [self updateHours:hours minutes:minutes];
     }
 }
